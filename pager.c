@@ -8,7 +8,7 @@
 #include <fcntl.h>   // for file control
 
 #define MAX_LINE_LEN 1024
-#define DEFAULT_PAGE_SIZE 36
+#define DEFAULT_PAGE_SIZE 37
 #define DEFAULT_SLEEP_MS 25
 #define MAX_LINES 10000 // maximum number of lines stored in memory
 
