@@ -1,3 +1,5 @@
+// gcc -o pager  pager.c
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -6,8 +8,8 @@
 #include <fcntl.h>   // for file control
 
 #define MAX_LINE_LEN 1024
-#define DEFAULT_PAGE_SIZE 10
-#define DEFAULT_SLEEP_MS 0
+#define DEFAULT_PAGE_SIZE 36
+#define DEFAULT_SLEEP_MS 25
 #define MAX_LINES 10000 // maximum number of lines stored in memory
 
 char *lines[MAX_LINES];
